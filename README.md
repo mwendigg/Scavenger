@@ -39,3 +39,4 @@ and this password list
 ```
 scp kali@192.168.1.200:~/password.lst ./
 ```
+If you need more help, check out the help file
