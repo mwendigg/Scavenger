@@ -37,5 +37,5 @@ aircrack-ng -w password.lst Scav.pcap
 and this password list 
 
 ```
-
+scp kali@192.168.1.200:~/password.lst ./
 ```
